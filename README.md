@@ -1,6 +1,9 @@
 # Bingo!
+![Purse](d.png)
 This is an online bingo game. Here is the data diagram:
-
+## Team
+name | Email | Phone
+--- | --- |---
 ## APIs
 [Join Game](README.md#join-game )
 
