@@ -1,24 +1,31 @@
-# bingo!
-online bingo
+# Bingo!
+This is an online bingo game. Here is the data diagram:
 
 ## APIs
-[joingame](README.md#join-game)
-[Anti up](README.md#anti-up)
-[draw cards](README.md#draw-cards)
-A project to delete
-startanti up
-cards
-ball
-bingo
+[Join Game](README.md#join-game )
 
-## join game
----http
-http://bingo.com/api/joingame?name-kyle
----
-this allows a player kyle to join the game.
-sample response:
----javascript
-("status": "success")
----
-##anti up
-##drawcards
+[Anti Up](README.md#anti-up)
+
+[Draw Cards](README.md#draw-cards)
+
+
+## Join Game
+This API allows the user to join the game. It uses the "GET" HTTP method.
+
+Sample Call:
+```http
+http://bingo.com/api/joingame?name=kyle
+```
+This allows a player named Sean to join the game. 
+
+Sample Response:
+```javascript
+{"status": "success"}
+```
+Sample Error:
+```javaxcript
+{"status":"fail-player not old enough"}
+```
+## Anti Up
+## Draw Cards
+
